@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
 
-contract ExampleToken is ERC20, ERC20Burnable {
+contract SportInvestingToken is ERC20, ERC20Capped, ERC20Burnable {
 
     constructor () ERC20("SportInvesting", "SITX")
     {
